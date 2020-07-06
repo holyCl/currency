@@ -1,10 +1,10 @@
-# run project
+## run project
 ```
 docker-compose build
 docker-compose up
 ```
 
-# Configurating
+## Configurating
 
 .env file contain rows 
 
