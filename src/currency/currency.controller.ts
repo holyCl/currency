@@ -2,7 +2,6 @@ import { Controller, Get, Param, Query, ValidationPipe } from '@nestjs/common';
 import { CurrencyService } from './currency.service';
 import { GetCurrencyDto } from './dto/get-currency.dto';
 import { ConvertCurrencyDto } from './dto/convert-currency.dto';
-import { isPositive } from 'class-validator';
 
 @Controller('currency')
 export class CurrencyController {

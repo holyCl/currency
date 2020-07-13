@@ -11,8 +11,7 @@ services:
     ports:
       - 3000:3000
       - 9229:9229
-    command: npm i 
-    command: npm run start:dev
+    command: bash -c "npm i && npm run start:dev"
     env_file:
       - .env
     networks:

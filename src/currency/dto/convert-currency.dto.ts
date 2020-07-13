@@ -1,5 +1,5 @@
 import { AllowedCurrency } from "../currency.model";
-import { IsOptional, IsIn, MinDate, MaxDate, IsPositive } from "class-validator";
+import { IsOptional, IsIn, MinDate, MaxDate } from "class-validator";
 import { Transform } from 'class-transformer';
 
 export class ConvertCurrencyDto {
